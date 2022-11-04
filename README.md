@@ -2,6 +2,7 @@
 
 ### comandos
 ```
+> npm i
 
 > npm run build
 
