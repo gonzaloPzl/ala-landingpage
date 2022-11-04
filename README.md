@@ -1,7 +1,10 @@
 # Ala landing page
 
 ### comandos
+```
 
-`npm run build`
+> npm run build
 
-`npm run deploy`
+> npm run deploy
+
+```
