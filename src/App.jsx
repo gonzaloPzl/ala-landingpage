@@ -2,6 +2,8 @@ import Root from "./routes/root"
 import ErrorPage from "./error-page";
 import AvisoLegal from "./routes/aviso-legal";
 import Privacidad from "./routes/privacidad";
+import Navbar from "./Navbar";
+import "./styles/global.css"; // import de estilos globales
 
 import {
   createBrowserRouter,
@@ -13,11 +15,11 @@ import {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root/>,
-    errorElement: <ErrorPage /> 
+    element: <Navbar/>,
+    errorElement: <ErrorPage />
   },
   {
-    path: "privacidad",
+    path: "/privacidad",
     element: <Privacidad />
   },
   {
