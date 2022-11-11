@@ -3,6 +3,7 @@ import ErrorPage from "./error-page";
 import AvisoLegal from "./routes/aviso-legal";
 import Privacidad from "./routes/privacidad";
 import Navbar from "./Navbar";
+import Values from './Values';
 import "./styles/global.css"; // import de estilos globales
 
 import {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: "/aviso-legal",
     element: <AvisoLegal/>
+  },
+  {
+    path: "/values",
+    element: <Values />
   }
 ]);
 
