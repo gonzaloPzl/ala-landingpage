@@ -4,6 +4,7 @@ import AvisoLegal from "./routes/aviso-legal";
 import Privacidad from "./routes/privacidad";
 import Navbar from "./Navbar";
 import Values from './Values';
+import Universities from "./Universities";
 import "./styles/global.css"; // import de estilos globales
 
 import {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
   {
     path: "/values",
     element: <Values />
+  },
+  {
+    path: "/universities",
+    element: <Universities />
   }
 ]);
 

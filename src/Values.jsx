@@ -1,7 +1,6 @@
 import FlagIcon from "./static/flag.svg";
 import GobernatIcon from "./static/gobernat.svg";
 import VoteIcon from "./static/vote.svg";
-import "./styles/Values.css";
 
 export default function Values() {
   return (
